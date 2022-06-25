@@ -23,15 +23,15 @@ public class MyController {
 		String s="";
 		if(first>second && first>third)
 		{
-			s="First is Big";
+			s="a is Big";
 		}
 		else if(second>third)
 		{
-			s="Second is big";
+			s="b is big";
 		}
 		else
 		{
-			s="Third is Big";
+			s="c is Big";
 		}
 		m.addAttribute("k4", s);
 		
